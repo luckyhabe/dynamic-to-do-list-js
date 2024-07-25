@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const taskList = document.getElementById('task-list');
 
 // Check Local Storage for existing tasks
-const tasks = JSON.parse(localStorage.getItem('tasks'));
+const tasks = JSON.parse(localStorage.getItem('loadTasks'));
 
 
 function addTask(newTask) {
